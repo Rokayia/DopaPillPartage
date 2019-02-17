@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">DopaPillPartage</string>
+    <string name="seconnecter">Se connecter</string>
+    <string name="mdpoublie">Mot de passe oublié?</string>
+    <string name="votremdp">Votre mot de passe</string>
+    <string name="votremail">Votre adresse e-mail</string>
+    <string name="annuler">Annuler</string>
+    <string name="sinscrire">Inscrivez-vous</string>
+    <string name="boutonsinscrire">Valider mon inscription</string>
+    <string name="et_pseudo">Pseudo</string>
+    <string name="et_email">Adresse email</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="mdpconfirmer">Confirmez votre mot de passe</string>
+
 </resources>
