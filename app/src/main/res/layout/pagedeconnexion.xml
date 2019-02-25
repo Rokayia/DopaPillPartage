@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <?xml version="1.0" encoding="utf-8"?>
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -57,14 +56,15 @@
                 android:layout_height="wrap_content"
                 android:text="@string/seconnecter"
                 />
-
-            <Button
-                android:id="@+id/boutonannuler"
-                android:layout_width="fill_parent"
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/annuler"
-                />
+                android:layout_weight="0.125"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:text="@string/mdpoublie" />
+        </LinearLayout>
 
-    </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

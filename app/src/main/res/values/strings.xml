@@ -11,5 +11,18 @@
     <string name="et_email">Adresse email</string>
     <string name="mdp">Mot de passe</string>
     <string name="mdpconfirmer">Confirmez votre mot de passe</string>
+    <string name="creercompte">Créer un compte</string>
+    <string name="vosid">Vos identifiants</string>
+    <string name="suivant">Suivant</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="votrenom">Votre nom</string>
+    <string name="votreprenom">Votre prénom</string>
+    <string name="vousetes">Vous êtes</string>
+    <string name="profilvalide">Profil validé!</string>
+    <string name="installerunemontre">Installer une montre</string>
+    <string name="ignoreretape">Ignorer cette étape</string>
+    <string name="montre">Image de la montre</string>
+    <string name="activerbluetooth">Veuillez activer votre Bluetooth</string>
+    <string name="montreajoutee">Montre ajoutée avec succès!</string>
 
 </resources>
