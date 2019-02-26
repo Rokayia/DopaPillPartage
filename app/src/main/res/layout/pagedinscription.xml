@@ -12,7 +12,8 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background">
 
         <TextView
             android:layout_width="match_parent"
@@ -20,7 +21,9 @@
             android:layout_weight="0.3"
             android:gravity="center"
             android:text="@string/vosid"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:textColor="#55BAA9"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/pseudo"
@@ -74,15 +77,7 @@
                 android:id="@+id/boutonsuivant"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/suivant"
-                />
-
-            <Button
-                android:id="@+id/boutonannuler"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/annuler"
-                />
+                android:background="@drawable/symbolee2981"/>
 
         </LinearLayout>
     </LinearLayout>

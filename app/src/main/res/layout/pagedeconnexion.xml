@@ -12,15 +12,18 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:gravity="center"
-            android:text="@string/seconnecter"
-            android:textSize="30sp"/>
+            android:text="@string/connexion"
+            android:textColor="#55BAA9"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/email"
@@ -32,6 +35,7 @@
             android:inputType="textEmailAddress"
             android:layout_marginBottom="20dp"
             android:autofillHints="" />
+
         <EditText
             android:id="@+id/mdppatient"
             android:layout_width="match_parent"
@@ -48,14 +52,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.125"
             android:layout_gravity="center"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
+
             <Button
                 android:id="@+id/boutonseconnecter"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/seconnecter"
-                />
+                android:background="@drawable/symbole130"
+                android:textColor="#FFFFFF"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,7 +69,9 @@
                 android:gravity="center"
                 android:onClick="onClick"
                 android:clickable="true"
-                android:text="@string/mdpoublie" />
+                android:text="@string/mdpoublie"
+                android:textStyle="italic"/>
+
         </LinearLayout>
 
     </LinearLayout>
